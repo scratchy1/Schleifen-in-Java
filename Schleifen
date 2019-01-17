@@ -1,0 +1,29 @@
+public class Schleifen {
+
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+
+        int k = 0;
+       
+        if (args.length != 0) {
+            do {
+                System.out.println("Argumente" + args[k]);
+                k++;
+            } while (k < args.length);
+        }
+        int l = 0;
+        while (l < args.length) {
+            System.out.println("Argumente" + args[l]);
+            l++;
+        }
+        for (int i = 0; i < args.length; i++) {
+            System.out.println("Argumente" + args[i]);
+
+        }
+        for (String j : args) {
+            System.out.println("Argumente" + j);
+
+        }
+    }
+
+}
